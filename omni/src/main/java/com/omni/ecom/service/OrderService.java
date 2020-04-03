@@ -39,7 +39,7 @@ public class OrderService {
 		long totalItems=0;
 		BigDecimal totalAmount=new BigDecimal(0);
 		for(OrderItemDto opd1:opd) {
-			Item item=opd1.getProduct();
+			Item item=opd1.getItem();
 			long qty=opd1.getQty();
 			if(!ir.existsById(item.getId())) {
 				od.setId(0L);

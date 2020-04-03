@@ -4,16 +4,16 @@ import com.omni.ecom.entity.Item;
 
 public class OrderItemDto {
 
-	private Item product;
+	private Item item;
 	
 	private long qty;
 
-	public Item getProduct() {
-		return product;
+	public Item getItem() {
+		return item;
 	}
 
-	public void setProduct(Item product) {
-		this.product = product;
+	public void setItem(Item item) {
+		this.item = item;
 	}
 
 	public long getQty() {

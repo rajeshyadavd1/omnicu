@@ -39,9 +39,9 @@ public class OrderController {
 	}
 	
 	@PostMapping("/place/{custEmail}")
-	public ResponseEntity<OrderDto> placeOrder(@PathVariable String custEmail,@RequestBody List<OrderItemDto> orderProductsData){
+	public ResponseEntity<OrderDto> placeOrder(@PathVariable String custEmail,@RequestBody List<OrderItemDto> orderItemData){
 		
-		OrderDto orderDto= orderService.placeOrders(orderProductsData, custEmail);
+		OrderDto orderDto= orderService.placeOrders(orderItemData, custEmail);
 		if(orderDto.getStatus().equals(Status.failed.getStatus())) {
 			return ResponseEntity.badRequest().body(orderDto);
 		}		

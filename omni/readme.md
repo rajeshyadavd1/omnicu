@@ -8,16 +8,16 @@
 	                "qty":3
                 }
     END POINT 2: http://localhost:8001/omnicuris/item/{id}
-                 by using this endpoint get the product details by using product id
+                 by using this endpoint get the item details by using item id
                  
     END POINT 3: http://localhost:8001/omnicuris/item/all
-                 By using this endpoint get all product details 
+                 By using this endpoint get all item details 
                  
     END POINT 4: http://localhost:8001/omnicuris/item/update/{id}  
-                 by using this end point update the product details
+                 by using this end point update the item details
                  
     END POINT 5: http://localhost:8001/omnicuris/item/delete/{id}
-                 by using this endpoint delete the product details
+                 by using this endpoint delete the item details
     
 2. GET ALL ITEMS LIST
 

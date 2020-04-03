@@ -55,7 +55,7 @@
 	}
   ]
 
-4. ALL ORDERS
+5. ALL ORDERS
 
     END POINT: http://localhost:8001/omnicuris/order/all
 
